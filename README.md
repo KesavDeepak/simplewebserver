@@ -21,6 +21,7 @@ Serving the HTML pages.
 Testing the webserver.
 
 ## PROGRAM:
+```python
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -59,7 +60,7 @@ Testing the webserver.
 
 </body>
 </html>
-
+```
 ## OUTPUT:
 ![alt text](output.png)
 
