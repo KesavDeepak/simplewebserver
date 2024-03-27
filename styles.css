@@ -1,0 +1,324 @@
+html{
+    background: linear-gradient(45deg,#333333, #bfbfbf, #ffffff );
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo{
+    margin-top: 10px;
+    height:70px;
+
+    animation-name: loga;
+    animation-duration: 1.5s;
+    animation-iteration-count:1;
+    
+}
+@keyframes loga {
+    from{ transform: translateX(-100px);}
+    to{transform: translateX(100px;);}
+
+}   
+.top{
+    
+    margin-top: 30px;
+    display:flex;
+    
+}
+.menu>ol{
+    display:flex;
+    list-style: none;
+    
+    margin-bottom:50%;
+    margin-left:200% ;
+       
+}
+.menu{
+    animation-name: log;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+
+}
+@keyframes log {
+    from{ transform: translateY(-100px);}
+    to{transform: translateY(0px);}
+
+}
+
+a{
+    text-decoration:none;
+    color:#80461B;
+    
+    font-weight: bold;
+    font-size: 23px;
+    margin-right:-5px;
+    
+    
+}
+li{
+    padding-left: 45px;
+    
+    
+}
+a:hover{
+
+    display:inline-flex;
+    
+    font-weight: bold;
+    
+    transform:translateY(-3px);
+    border-bottom: 4px  solid #51361a;
+    color:#51361a;
+    transition: all 0.2s ease-out;
+    box-shadow: 3px #51361a;
+
+    
+    
+    
+}
+
+h2{
+    color:black;
+    text-shadow: 1px 1px 1px 1px #51361a;
+    padding-left: 14px;
+    font-size: 40px;
+    background: linear-gradient(45deg,#bfbfbf, #ffffff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h3{
+    color:black;
+    padding-left: 11px;
+    font-size: 35px;
+    text-shadow: 1px 1px 1px 1px #51361a;
+    background: linear-gradient(45deg, #bfbfbf, #bfbfbf, #ffffff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p{
+    color: #51361a;
+    padding-left: 12px;
+    font-size:15px;
+}
+.mid{
+    
+    
+    min-height: 200px;
+    
+    padding-top: 7px;
+    
+    margin-top: -30px;
+    width:65%;
+    
+    margin-bottom: 30px;
+    
+    animation-name: loge;
+    animation-duration: 2.7s;
+    
+    animation-iteration-count:1;
+    background-size: contain;
+    margin-left:35%;
+    transition: width 1s;
+    
+    
+}
+
+@keyframes loge {
+    0%{transition-timing-function: static;
+    
+    width:5%;
+    opacity: 0;
+    
+    transform: scale(0);
+
+    }
+    10%{transition-timing-function: static;
+    width:15%;
+    opacity:0%;
+    
+    }
+    
+    25%{transition-timing-function: static;
+    
+    opacity:0%;
+    width:20%;
+    transform: scale(0.25);
+    
+    }
+    
+    50%{transition-timing-function: static;
+        
+        opacity:0;
+        width:25%;
+        
+        transform: scaleX(0.5);
+        
+    
+    }
+    75%{
+        opacity: 0%;
+        
+        width:55%;
+        transform: scale(0.75);
+        margin-left: 18%;
+        
+        
+
+    }
+    100%{transition-timing-function: static;
+        width:65%;
+        margin-left:35%;
+        transform: scale(1);
+    opacity:100%;
+    margin-left:35%;
+    }
+}
+.pro{
+    float:right;
+    margin-right: 250px;
+    width:150px;
+    border:3px solid #51361a;
+    border-radius: 40px;
+    
+    
+    box-shadow: 10px 5px 10px 10px #51361a;
+    height:300px;
+}
+.abou{
+    margin-top: 30%;
+    font-size: 30px;
+    padding:10px;
+    animation-name: logu;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+    background-color: black;
+    min-height: 350px;
+    border-radius: 7px;
+    padding-top: 7px;
+    
+    
+    width:65%;
+    margin-left:25%;
+    box-shadow: 10px 10px 10px 10px #51361a;
+    animation-name: log;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+    
+}
+.about:focus{
+    from{ transform: translateY(-100px);}
+    to{transform: translateY(100px);}
+}
+.pp{
+    background-color: black;
+    width:65%;
+    margin-left:25%;
+    box-shadow: 10px 10px 10px 10px #51361a;
+    animation-name: log;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+}
+@keyframes logu {
+    from{color:transparent;}
+    to{color:#51361a;}
+}
+.circle{
+    border:12px solid transparent;
+    animation: log 2s ;
+    border-radius:50% ;
+    border-top: 10px solid #80461B;
+    height:100px;
+    width:100px;
+    animation: spin 2s linear infinite;
+    background-attachment: fixed;
+    
+}
+.c1{
+    border:10px solid transparent;
+    border-radius:50% ;
+    border-top: 10px solid #80461B;
+    height:80px;
+    width:80px;
+    animation: spin 2s linear infinite;
+}
+.c2{
+    border:8px solid transparent;
+    border-radius:50% ;
+    border-top: 10px solid #80461B;
+    height:60px;
+    width:60px;
+    animation: spin 2s linear infinite;
+}
+.c3{
+    border:6px solid transparent;
+    border-radius:50% ;
+    border-top: 10px solid #80461B;
+    height:40px;
+    width:40px;
+    animation: spin 3s linear infinite;
+}
+@keyframes spin {
+    from{transform:rotate(0deg);}
+    to{
+        transform:rotate(360deg);
+    }
+}
+::-webkit-scrollbar{
+    width:15px;
+}
+::-webkit-scrollbar-track{
+    background:#000000;
+}
+::-webkit-scrollbar-thumb{
+    background: #51361a;
+    
+}
+::-webkit-scrollbar-thumb:hover{
+    background:#51361a;
+}
+.abou i{
+    text-align:center ;
+}
+.about p{
+    padding-top:5px;
+}
+.gun{
+    transform: scaleX(-1);
+    height:300px;
+    margin-top:17px;
+    float:left;
+    filter: sepia(120%);
+    
+}
+.gun1{
+    transform: scaleX(-1);
+    
+    width:400px;
+    margin-top:40px;
+    margin-right:290px;
+    float:left;
+    position: absolute;
+    left: 5px;
+    animation-name: flos;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    filter: sepia(120%);
+}
+@keyframes flos {
+    from {margin-left: 10px;}
+    to {margin-left: -80px;}
+}
+.g{
+    position: relative;
+    
+}
+.mid{
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size: 950px 290px;
+    background-position: -5px -17px;
+    
+}
+
